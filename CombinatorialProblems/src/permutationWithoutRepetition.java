@@ -20,6 +20,7 @@ public class permutationWithoutRepetition {
             print();
             return;
         }
+
         for (int i = 0; i < elements.length; i++) {
             if (!used[i]){
                 used[i] = true;
